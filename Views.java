@@ -165,6 +165,7 @@ public class Views {
         return hangmans[index];
     }
 
+    public void reset() { index = 0; }
 
 }
 

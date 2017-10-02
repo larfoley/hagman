@@ -128,6 +128,7 @@ public class Hangman {
             userGuess = ' ';
             guessedLetters = "";
             twoPlayerMode = false;
+            hangmanViews.reset();
         } else {
             System.out.println("Thanks for playing :)");
         }
